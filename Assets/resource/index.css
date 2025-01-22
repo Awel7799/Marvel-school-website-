@@ -9,7 +9,7 @@
     padding: 0%;
 }
 .header_1 {
-    background-color: rgb(3, 158, 13);
+    background-color:rgb(202, 216, 216);
     width: 100%;
     height: 50px;
     margin: 0%;
@@ -46,9 +46,98 @@ height: 150px;
     height: 20px;
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: xx-large;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    text-emphasis-color: aqua;
+    text-shadow: rgb(66, 186, 186);
+    font-weight: bold;
+}
+.general_body_2{
+    margin-top: 50px;
+    padding-top: 70px;
+}
+span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    color: hsl(0, 7%, 55%);
+    padding: 5%;
+}
+.card_1{
+    width: 200%;
+    height: 100%;
+    margin-left: 30PX;
+    padding: 5%;
+    background-color:hwb(350 91% 2%);
+    border-radius: 30px;
+}
+.card_2{
+    width: 200%;
+    height: 100%;
+    margin-left: 30PX;
+    padding: 5%;
+    background-color:hwb(190 91% 2%);
+    border-radius: 30px;
+}
+.card_3{
+    width: 200%;
+    height: 100%;
+    margin-left: 30PX;
+    padding: 5%;
+    background-color:hwb(350 91% 2%);
+    border-radius: 30px;
+}
+.card_4{
+    width: 200%;
+    height: 100%;
+    margin-left: 30PX;
+    padding: 5%;
+    background-color:hwb(177 91% 2%);
+    border-radius: 30px;
+}
+.card_1:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(231, 89, 89, 0.2);
+    background-color: rgb(249, 160, 160);
+    color: white;
+}
+.card_2:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(231, 89, 89, 0.2);
+    background-color: rgb(163, 227, 244);
+    color: hsl(0, 16%, 81%);
+}
+.card_3:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(231, 89, 89, 0.2);
+    background-color: rgb(249, 160, 160);
+    color: white;
+}  
+.card_4:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(231, 89, 89, 0.2);
+    background-color: rgb(163, 227, 244);
+    color: hsl(0, 16%, 81%);
+}
+.award_photo{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.awards{
+    width: 100%;
+    height: 100%;
+    margin-left: 30PX;
+    padding: 5%;
+    background-color:white;
+    border-radius: 30px;
+}
+footer{
+    background-color: rgb(140, 209, 209);
+    width: 100%;
+    height: 200px;
+    margin: 0%;
+    padding: 15px;
+    border-color: rgb(122, 182, 159);
 }
